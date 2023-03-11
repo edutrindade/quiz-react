@@ -1,0 +1,81 @@
+.container {
+    display: flex;
+    background-color: #22272E;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+.logo {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #8434DE;
+    width: 350px;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow:
+    0 8px 16px -8px rgba(0, 0, 0, 0.4),
+    0 0 32px -8px rgba(0, 0, 0, 0.2),
+    0 0 0 1px rgba(255, 255, 255, 0.05);
+    text-align: center;
+}
+
+.card-question {
+    padding: 6px;
+}
+
+.card-title {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Dancing Script";
+    text-align: left;
+}
+
+.question {
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: left;
+    padding-top: 1rem;
+}
+
+.card-answer {
+    padding-top: 6px;
+}
+
+.card-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-options button {
+    background-color: #8434DE;
+    color: #FFF;
+    width: 100%;
+    border-style: solid;
+    border-width: 2x;
+    border-color: #7204DE; 
+    padding: 10px 20px;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: "Roboto";
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.card-options button:hover {
+    background-color: #CCFF33;
+    color: #8434DE;
+    border-color: #7204DE; 
+}
